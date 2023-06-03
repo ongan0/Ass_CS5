@@ -15,10 +15,10 @@ namespace Assignment_CS5_Share._2_Configurations
             builder.Property(c => c.Description).HasMaxLength(526).IsRequired();
             builder.Property(c => c.Email).HasMaxLength(128).IsRequired();
             builder.Property(c => c.PhoneNumber).HasMaxLength(10).IsRequired();
-            builder.Property(c=>c.Status).IsRequired();
+            builder.Property(c => c.Status).IsRequired();
 
-            
-            builder.HasMany(c => c.Orders).WithOne(c => c.Users).HasForeignKey(c => c.UserID);
+
+            builder.HasOne(c => c.Order).WithOne(c => c.User).HasForeignKey<Order>(c => c.UserID);
             builder.HasOne(c => c.Role).WithMany(c => c.Users).HasForeignKey(c => c.IDRole);
             //builder.HasMany(c => c.Bills).WithOne(c => c.User).HasForeignKey(c => c.UserID);
         }

@@ -4,6 +4,7 @@ using Assignment_Chsarp5_datntph19899._1_DataProcessing._3_Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment_Chsarp5_datntph19899.Migrations
 {
     [DbContext(typeof(Assignment_Context))]
-    partial class Assignment_ContextModelSnapshot : ModelSnapshot
+    [Migration("20230603124440_fix_O_U")]
+    partial class fix_O_U
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
