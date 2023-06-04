@@ -21,6 +21,10 @@ builder.Services.AddTransient<IFoodServices, FoodServices>();
 builder.Services.AddTransient<IExpress_DeliveryServices, Express_DeliveryServices>();
 builder.Services.AddTransient<IComboServices, ComboServices>();
 builder.Services.AddTransient<IRoleServices, RoleServices>();
+builder.Services.AddTransient<ICategoryServices, CategoryServices>();
+builder.Services.AddTransient<ICouponServices, CouponServices>();
+builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IOrderDetailService, OrderDetailService>();
 
 var app = builder.Build();
 

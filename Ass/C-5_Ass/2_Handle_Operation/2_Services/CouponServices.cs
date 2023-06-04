@@ -1,10 +1,11 @@
 ﻿using Assignment_CS5_Share._1_Models;
 using Assignment_Chsarp5_datntph19899._1_DataProcessing._3_Context;
 using Microsoft.EntityFrameworkCore;
+using Assignment_Chsarp5_datntph19899._2_Handle_Operation._1_IServices;
 
 namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
 {
-    public class CouponServices
+    public class CouponServices:ICouponServices
     {
         private Assignment_Context _dbContext;
         public CouponServices(Assignment_Context assignment_Context)
