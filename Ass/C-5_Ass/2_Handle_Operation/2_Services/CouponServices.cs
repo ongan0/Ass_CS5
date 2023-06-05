@@ -5,7 +5,7 @@ using Assignment_Chsarp5_datntph19899._2_Handle_Operation._1_IServices;
 
 namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
 {
-    public class CouponServices:ICouponServices
+    public class CouponServices : ICouponServices
     {
         private Assignment_Context _dbContext;
         public CouponServices(Assignment_Context assignment_Context)
@@ -17,7 +17,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             try
             {
                 Obj.ID = Guid.NewGuid();
-                await _dbContext.AddAsync(Obj);
+                await _dbContext.Coupons.AddAsync(Obj);
                 await _dbContext.SaveChangesAsync();
                 return true;
             }

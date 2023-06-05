@@ -17,7 +17,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             try
             {
                 Obj.ID = Guid.NewGuid();
-                await _dbContext.AddAsync(Obj);
+                await _dbContext.Categorys.AddAsync(Obj);
                 await _dbContext.SaveChangesAsync();
                 return true;
             }

@@ -19,7 +19,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
         {
             try
             {
-                await _dbContext.AddAsync(order);
+                await _dbContext.Orders.AddAsync(order);
                 await _dbContext.SaveChangesAsync();
                 return true;
             }
