@@ -22,7 +22,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Bill", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Bill", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -68,7 +68,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Bills");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.BillDetail", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.BillDetail", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -95,7 +95,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("BillDetails");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Category", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Category", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -117,7 +117,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Categorys");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Combo", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Combo", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -150,7 +150,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Combos");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Coupons", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Coupons", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -194,7 +194,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Coupons");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Delivery_Address", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Delivery_Address", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -225,7 +225,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Delivery_Addresses");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Express_Delivery", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Express_Delivery", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -270,7 +270,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Express_Deliveries");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Food", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -292,7 +292,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Foods");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Order", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Order", b =>
                 {
                     b.Property<Guid>("OrderID")
                         .ValueGeneratedOnAdd()
@@ -312,12 +312,13 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
                     b.HasKey("OrderID");
 
-                    b.HasIndex("UserID");
+                    b.HasIndex("UserID")
+                        .IsUnique();
 
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.OrderDetail", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.OrderDetail", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -339,7 +340,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("OrdelDetail");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Reviews", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Reviews", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -374,7 +375,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Reviews");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Role", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Role", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -396,7 +397,7 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.User", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -517,15 +518,15 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.ToTable("FoodOrderDetail");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Bill", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Bill", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Delivery_Address", "Delivery_Address")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Delivery_Address", "Delivery_Address")
                         .WithMany("Bills")
                         .HasForeignKey("Delivery_AddressID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", "User")
+                    b.HasOne("Assignment_CS5_Share._1_Models.User", "User")
                         .WithMany("Bills")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.NoAction)
@@ -536,15 +537,15 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.BillDetail", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.BillDetail", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Bill", "Bill")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Bill", "Bill")
                         .WithMany("BillDetails")
                         .HasForeignKey("BillID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", "Food")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", "Food")
                         .WithMany("BillDetails")
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -555,16 +556,16 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.Navigation("Food");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Combo", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Combo", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Category", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Category", null)
                         .WithMany("combos")
                         .HasForeignKey("CategoryID");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Delivery_Address", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Delivery_Address", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", "User")
+                    b.HasOne("Assignment_CS5_Share._1_Models.User", "User")
                         .WithMany("Delivery_Addresses")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -573,20 +574,20 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Order", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Order", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", "Users")
-                        .WithMany("Orders")
-                        .HasForeignKey("UserID")
+                    b.HasOne("Assignment_CS5_Share._1_Models.User", "User")
+                        .WithOne("Order")
+                        .HasForeignKey("Assignment_CS5_Share._1_Models.Order", "UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Users");
+                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.OrderDetail", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.OrderDetail", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Order", "Order")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Order", "Order")
                         .WithMany("OrderDetail")
                         .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -595,15 +596,15 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Reviews", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Reviews", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", "Food")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", "Food")
                         .WithMany("Reviews")
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", "User")
+                    b.HasOne("Assignment_CS5_Share._1_Models.User", "User")
                         .WithMany("Reviews")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -614,9 +615,9 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.User", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Role", "Role")
+                    b.HasOne("Assignment_CS5_Share._1_Models.Role", "Role")
                         .WithMany("Users")
                         .HasForeignKey("RoleID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -627,13 +628,13 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             modelBuilder.Entity("CategoryFood", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Category", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Category", null)
                         .WithMany()
                         .HasForeignKey("CategorysID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", null)
                         .WithMany()
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -642,13 +643,13 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             modelBuilder.Entity("ComboCoupons", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Combo", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Combo", null)
                         .WithMany()
                         .HasForeignKey("ComboID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Coupons", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Coupons", null)
                         .WithMany()
                         .HasForeignKey("CouponsID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -657,13 +658,13 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             modelBuilder.Entity("ComboFood", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Combo", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Combo", null)
                         .WithMany()
                         .HasForeignKey("CombosID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", null)
                         .WithMany()
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -672,13 +673,13 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             modelBuilder.Entity("CouponsFood", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Coupons", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Coupons", null)
                         .WithMany()
                         .HasForeignKey("CouponsID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", null)
                         .WithMany()
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -687,58 +688,59 @@ namespace Assignment_Chsarp5_datntph19899.Migrations
 
             modelBuilder.Entity("FoodOrderDetail", b =>
                 {
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.Food", null)
                         .WithMany()
                         .HasForeignKey("FoodID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.OrderDetail", null)
+                    b.HasOne("Assignment_CS5_Share._1_Models.OrderDetail", null)
                         .WithMany()
                         .HasForeignKey("OrderDetailsID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Bill", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Bill", b =>
                 {
                     b.Navigation("BillDetails");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Category", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Category", b =>
                 {
                     b.Navigation("combos");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Delivery_Address", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Delivery_Address", b =>
                 {
                     b.Navigation("Bills");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Food", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Food", b =>
                 {
                     b.Navigation("BillDetails");
 
                     b.Navigation("Reviews");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Order", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Order", b =>
                 {
                     b.Navigation("OrderDetail");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.Role", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.Role", b =>
                 {
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Assignment_Chsarp5_datntph19899._1_DataProcessing._1_Models.User", b =>
+            modelBuilder.Entity("Assignment_CS5_Share._1_Models.User", b =>
                 {
                     b.Navigation("Bills");
 
                     b.Navigation("Delivery_Addresses");
 
-                    b.Navigation("Orders");
+                    b.Navigation("Order")
+                        .IsRequired();
 
                     b.Navigation("Reviews");
                 });

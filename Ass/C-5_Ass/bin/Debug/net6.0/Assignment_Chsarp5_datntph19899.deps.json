@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Assignment_Chsarp5_datntph19899/1.0.0": {
         "dependencies": {
+          "Assignment_CS5_Share": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.16",
           "Microsoft.EntityFrameworkCore.Design": "6.0.16",
@@ -1564,6 +1565,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Assignment_CS5_Share/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Velites.Utility.EnityFrameworkExtension": "1.0.19"
+        },
+        "runtime": {
+          "Assignment_CS5_Share.dll": {}
+        }
       }
     }
   },
@@ -2790,6 +2803,11 @@
       "sha512": "sha512-kHrVPlFKB74giOH+XY15ES8KdRkd0STrl95Np38Gh96d3UjyFOAfM46fumnAfnvezc1wSF9yTe+wPCY0DGEzUQ==",
       "path": "velites.utility.sharedlibrary/1.0.19",
       "hashPath": "velites.utility.sharedlibrary.1.0.19.nupkg.sha512"
+    },
+    "Assignment_CS5_Share/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

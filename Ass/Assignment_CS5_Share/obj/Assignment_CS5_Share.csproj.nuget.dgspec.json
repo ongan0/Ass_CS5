@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj": {}
   },
   "projects": {
@@ -12,14 +13,25 @@
         "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\",
+=======
+    "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
+        "projectName": "Assignment_CS5_Share",
+        "projectPath": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
+        "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\",
+>>>>>>> bf0aeed8b3cfa89741b46e54f045f6636adffd4e
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\laich\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +39,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -96,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
