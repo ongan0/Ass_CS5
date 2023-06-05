@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pODTaqdoEVW1O3L726p8D5CTYzw9YaH2SO/zruOESk8ovrL2rFHlNMZ67kATEKxkS1cH8i8N7lRkXbSxPHSFKw==",
+  "dgSpecHash": "FKOgtYqZYh8gLB1UCfB2VguHiFnnxnq1nfVjYdaS8lKTxxXjhDvNEzSRLGKO5QSrtTDMOFy1p/CoFH5rYufLQg==",
   "success": true,
-  "projectFilePath": "D:\\FPT_Polytechnic\\C#5\\Ass\\Assignment_CS5_Client\\Assignment_CS5_Client.csproj",
+  "projectFilePath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Client\\Assignment_CS5_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
