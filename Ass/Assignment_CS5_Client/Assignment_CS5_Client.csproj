@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Assignment_CS5_Share\Assignment_CS5_Share.csproj" />
+    <ProjectReference Include="..\C-5_Ass\Assignment_Chsarp5_datntph19899.csproj" />
   </ItemGroup>
 
 </Project>

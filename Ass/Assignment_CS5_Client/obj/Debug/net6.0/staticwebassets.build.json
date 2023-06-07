@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "KkuvIAKLLgYy7YIUHCz7/5ioHZ8C7uuCKM0b1e3jVuY=",
+  "Hash": "RNXDAUsKxpJMNbhwKr1DPJRGyzyXXpMUs9V6oxwAU2U=",
   "Source": "Assignment_CS5_Client",
   "BasePath": "_content/Assignment_CS5_Client",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\C-5_Ass\\Assignment_Chsarp5_datntph19899.csproj",
+      "Version": 2,
+      "Source": "Assignment_Chsarp5_datntph19899",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "Assignment_CS5_Client\\wwwroot",

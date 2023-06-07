@@ -1,5 +1,6 @@
 ﻿using Assignment_Chsarp5_datntph19899._1_DataProcessing._3_Context;
 using Assignment_Chsarp5_datntph19899._2_Handle_Operation._1_IServices;
+using Assignment_Chsarp5_datntph19899._2_Handle_Operation._3_ViewModels;
 using Assignment_CS5_Share._1_Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,12 +13,19 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
         {
             _dbContext = assignment_Context;
         }
-        public async Task<bool> AddAsync(Category Obj)
+        public async Task<bool> AddAsync(CategoryViewModels Obj)
         {
             try
             {
-                Obj.ID = Guid.NewGuid();
-                await _dbContext.Categorys.AddAsync(Obj);
+                var food = await _dbContext.Foods.FirstOrDefaultAsync(c => c.ID == Obj.FoodID);
+                var ct = new Category()
+                {
+                    FoodID = food.ID,
+                    Name = Obj.Name,
+                    Description = Obj.Description
+                };
+
+                await _dbContext.Categorys.AddAsync(ct);
                 await _dbContext.SaveChangesAsync();
                 return true;
             }
@@ -32,9 +40,18 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             return await _dbContext.Categorys.FindAsync(ID);
         }
 
-        public async Task<List<Category>> GetCategoryAsync()
+        public async Task<List<CategoryViewModels>> GetCategoryAsync()
         {
-            return await _dbContext.Categorys.ToListAsync();
+            var lstCt = await _dbContext.Categorys.ToListAsync();
+            var lst = from a in lstCt
+                      select new CategoryViewModels()
+                      {
+                          ID = a.ID,
+                          FoodID = a.FoodID,
+                          Name = a.Name,
+                          Description = a.Description
+                      };
+            return lst.ToList();
         }
 
         public async Task<bool> RemoveAsync(Guid ID)
@@ -60,7 +77,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
 
         }
 
-        public async Task<bool> UpdateAsync(Category Obj)
+        public async Task<bool> UpdateAsync(CategoryViewModels Obj)
         {
             try
             {
@@ -68,9 +85,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
                 cate.FoodID = Obj.FoodID;
                 cate.Name = Obj.Name;
                 cate.Description = Obj.Description;
-                _dbContext.Categorys.Attach(Obj);
-                await Task.FromResult<Category>(_dbContext.Categorys.Update(Obj).Entity);
-
+                _dbContext.Update(cate);
                 await _dbContext.SaveChangesAsync();
                 return true;
 
