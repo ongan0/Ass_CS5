@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "DsVnAJ9jNNXxqOuiNYYlrHXmu9YNlGPUMhKEDRnqC0OJ2+iy4QhpCqptRkTNgspGKxJfGh78hpQvYQpLtvJqbw==",
-  "success": true,
-  "projectFilePath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
-=======
   "dgSpecHash": "CN3JjlYx3/ZggRfeMRA9v6uh9iwfw/76pAJmQvemN4DLErVu/onMxj15ai4ERX4szTh4/s6OMvQEsrFnbHhjhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
->>>>>>> bf0aeed8b3cfa89741b46e54f045f6636adffd4e
   "expectedPackageFiles": [
     "C:\\Users\\laich\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\laich\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -185,5 +179,12 @@
     "C:\\Users\\laich\\.nuget\\packages\\velites.utility.event\\1.0.19\\velites.utility.event.1.0.19.nupkg.sha512",
     "C:\\Users\\laich\\.nuget\\packages\\velites.utility.sharedlibrary\\1.0.19\\velites.utility.sharedlibrary.1.0.19.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

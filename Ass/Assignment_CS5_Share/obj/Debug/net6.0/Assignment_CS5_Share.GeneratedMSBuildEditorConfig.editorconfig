@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Assignment_CS5_Share
-<<<<<<< HEAD
-build_property.ProjectDir = D:\FPT_Polytechnic\C#5\Ass_CS5\Ass\Assignment_CS5_Share\
-=======
 build_property.ProjectDir = C:\Users\laich\Downloads\Ass_CS5\Ass\Assignment_CS5_Share\
->>>>>>> bf0aeed8b3cfa89741b46e54f045f6636adffd4e

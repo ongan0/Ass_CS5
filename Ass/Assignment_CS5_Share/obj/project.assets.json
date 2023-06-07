@@ -8741,19 +8741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
-      "projectName": "Assignment_CS5_Share",
-      "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
       "projectName": "Assignment_CS5_Share",
       "projectPath": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj",
       "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\",
->>>>>>> bf0aeed8b3cfa89741b46e54f045f6636adffd4e
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8838,5 +8830,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\laich\\Downloads\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
