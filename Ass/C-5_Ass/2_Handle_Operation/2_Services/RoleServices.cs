@@ -80,7 +80,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             }
             catch (Exception)
             {
-                return false;
+                return false;//;
             }
         }
     }
