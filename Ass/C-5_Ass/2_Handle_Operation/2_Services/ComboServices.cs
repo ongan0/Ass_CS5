@@ -23,7 +23,6 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
                       {
                           ID = a.ID,
                           FoodID = a.FoodID,
-                          //thieu category o model
                           ComboName = a.ComboName,
                           Price = a.Price,
                           Description = a.Description,
@@ -41,12 +40,11 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
         {
             try
             {
-                var fo = await _dbContext.Combos.FindAsync(combo.FoodID);
-                var ct = await _dbContext.Categorys.FindAsync(combo.CategoryID);
+                var fo = await _dbContext.Foods.FirstOrDefaultAsync(c => c.ID == combo.FoodID);
+                //var ct = await _dbContext.Categorys.FindAsync(combo.CategoryID);
                 var cb = new Combo()
                 {
-                    FoodID = fo.FoodID,
-                    //thieu id category o model
+                    FoodID = fo.ID,
                     ComboName = combo.ComboName,
                     Price = combo.Price,
                     Description = combo.Description,

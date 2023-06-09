@@ -22,13 +22,13 @@ namespace Assignment_Chsarp5_datntph19899.Controllers
             return Ok(fo);
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<Food>> GetFood(Guid id)
+        public async Task<ActionResult<FoodViewModels>> GetFood(Guid id)
         {
             var fo = await _ifoodServices.GetFoodByIdAsync(id);
             return Ok(fo);
         }
         [HttpPost]
-        public async Task<ActionResult<Food>> PostFood(FoodViewModels food)
+        public async Task<ActionResult<FoodViewModels>> PostFood(FoodViewModels food)
         {
             var fo = await _ifoodServices.AddFoodAsync(food);
             return Ok();

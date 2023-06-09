@@ -26,3 +26,17 @@ D:\FPT_Polytechnic\C#5\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\refint\
 D:\FPT_Polytechnic\C#5\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.pdb
 D:\FPT_Polytechnic\C#5\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.genruntimeconfig.cache
 D:\FPT_Polytechnic\C#5\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\ref\Assignment_CS5_Share.dll
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\bin\Debug\net6.0\Assignment_CS5_Share.deps.json
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\bin\Debug\net6.0\Assignment_CS5_Share.runtimeconfig.json
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\bin\Debug\net6.0\Assignment_CS5_Share.dll
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\bin\Debug\net6.0\Assignment_CS5_Share.pdb
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.csproj.AssemblyReference.cache
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.AssemblyInfoInputs.cache
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.AssemblyInfo.cs
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.csproj.CoreCompileInputs.cache
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.dll
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\refint\Assignment_CS5_Share.dll
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.pdb
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\Assignment_CS5_Share.genruntimeconfig.cache
+D:\LTC#5\Lab-As\Ass_CS5\Ass\Assignment_CS5_Share\obj\Debug\net6.0\ref\Assignment_CS5_Share.dll

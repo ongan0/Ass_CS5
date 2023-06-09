@@ -22,6 +22,7 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             var lstF = from a in lstdb
                        select new FoodViewModels
                        {
+                           ID = a.ID,
                            FoodName = a.FoodName,
                            Price = a.Price,
                            Description = a.Description

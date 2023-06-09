@@ -22,7 +22,7 @@ namespace Assignment_Chsarp5_datntph19899.Controllers
             return Ok(sp);
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(Guid id)
+        public async Task<ActionResult<CategoryViewModels>> GetCategory(Guid id)
         {
             var sp = await _icategoryServices.GetByIdAsync(id);
             return Ok(sp);

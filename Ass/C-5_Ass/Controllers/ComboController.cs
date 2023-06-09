@@ -22,7 +22,7 @@ namespace Assignment_Chsarp5_datntph19899.Controllers
             return Ok(cb);
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<Combo>> GetCombo(Guid id)
+        public async Task<ActionResult<ComboViewModels>> GetCombo(Guid id)
         {
             var cb = await _icomboServices.GetComboByIdAsync(id);
             return Ok(cb);
