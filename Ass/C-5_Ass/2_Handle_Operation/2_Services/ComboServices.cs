@@ -2,6 +2,7 @@
 using Assignment_Chsarp5_datntph19899._1_DataProcessing._3_Context;
 using Assignment_Chsarp5_datntph19899._2_Handle_Operation._1_IServices;
 using Microsoft.EntityFrameworkCore;
+using Assignment_Chsarp5_datntph19899._2_Handle_Operation._3_ViewModels;
 
 namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
 {
@@ -14,9 +15,21 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             _dbContext = dbContext;
         }
 
-        public async Task<List<Combo>> GetCombosAsync()
+        public async Task<List<ComboViewModels>> GetCombosAsync()
         {
-            return await _dbContext.Combos.ToListAsync();
+            var lstCB = await _dbContext.Combos.ToListAsync();
+            var lst = from a in lstCB
+                      select new ComboViewModels
+                      {
+                          ID = a.ID,
+                          FoodID = a.FoodID,
+                          //thieu category o model
+                          ComboName = a.ComboName,
+                          Price = a.Price,
+                          Description = a.Description,
+                          Status = a.Status
+                      };
+            return lst.ToList();
         }
 
         public async Task<Combo> GetComboByIdAsync(Guid id)
@@ -24,30 +37,70 @@ namespace Assignment_Chsarp5_datntph19899._2_Handle_Operation._2_Services
             return await _dbContext.Combos.FindAsync(id);
         }
 
-        public async Task<Guid> AddComboAsync(Combo combo)
+        public async Task<bool> AddComboAsync(ComboViewModels combo)
         {
-            combo.ID = Guid.NewGuid();
-            await _dbContext.Combos.AddAsync(combo);
-            await _dbContext.SaveChangesAsync();
-            return combo.ID;
+            try
+            {
+                var fo = await _dbContext.Combos.FindAsync(combo.FoodID);
+                var ct = await _dbContext.Categorys.FindAsync(combo.CategoryID);
+                var cb = new Combo()
+                {
+                    FoodID = fo.FoodID,
+                    //thieu id category o model
+                    ComboName = combo.ComboName,
+                    Price = combo.Price,
+                    Description = combo.Description,
+                    Status = combo.Status
+                };
+                await _dbContext.Combos.AddAsync(cb);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
         }
 
-        public async Task<bool> UpdateComboAsync(Combo combo)
+        public async Task<bool> UpdateComboAsync(ComboViewModels combo)
         {
-            _dbContext.Entry(combo).State = EntityState.Modified;
-            await _dbContext.SaveChangesAsync();
-            return true;
+            try
+            {
+                var cb = await _dbContext.Combos.FirstOrDefaultAsync(c => c.ID == combo.ID);
+                cb.FoodID = combo.FoodID;
+                cb.ComboName = combo.ComboName;
+                cb.Price = combo.Price;
+                cb.Description = combo.Description;
+                cb.Status = combo.Status;
+                _dbContext.Update(cb);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
         }
 
         public async Task<bool> DeleteComboAsync(Guid id)
         {
-            var combo = await _dbContext.Combos.FindAsync(id);
-            if (combo == null)
-                return false;
+            try
+            {
+                var combo = await _dbContext.Combos.FindAsync(id);
+                if (combo == null)
+                    return false;
 
-            _dbContext.Combos.Remove(combo);
-            await _dbContext.SaveChangesAsync();
-            return true;
+                _dbContext.Combos.Remove(combo);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
         }
     }
 }

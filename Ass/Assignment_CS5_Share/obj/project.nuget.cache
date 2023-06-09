@@ -179,5 +179,12 @@
     "C:\\Users\\Admin\\.nuget\\packages\\velites.utility.event\\1.0.19\\velites.utility.event.1.0.19.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\velites.utility.sharedlibrary\\1.0.19\\velites.utility.sharedlibrary.1.0.19.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

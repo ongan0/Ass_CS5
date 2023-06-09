@@ -3055,6 +3055,27 @@
           "lib/net5.0/Utility.SharedLibrary.dll": {}
         }
       },
+      "Assignment_Chsarp5_datntph19899/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Assignment_CS5_Share": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Velites.Utility.EnityFrameworkExtension": "1.0.19"
+        },
+        "compile": {
+          "bin/placeholder/Assignment_Chsarp5_datntph19899.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment_Chsarp5_datntph19899.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Assignment_CS5_Share/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -8739,6 +8760,11 @@
         "velites.utility.sharedlibrary.nuspec"
       ]
     },
+    "Assignment_Chsarp5_datntph19899/1.0.0": {
+      "type": "project",
+      "path": "../C-5_Ass/Assignment_Chsarp5_datntph19899.csproj",
+      "msbuildProject": "../C-5_Ass/Assignment_Chsarp5_datntph19899.csproj"
+    },
     "Assignment_CS5_Share/1.0.0": {
       "type": "project",
       "path": "../Assignment_CS5_Share/Assignment_CS5_Share.csproj",
@@ -8748,6 +8774,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Assignment_CS5_Share >= 1.0.0",
+      "Assignment_Chsarp5_datntph19899 >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.16",
@@ -8795,6 +8822,9 @@
           "projectReferences": {
             "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj": {
               "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Share\\Assignment_CS5_Share.csproj"
+            },
+            "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\C-5_Ass\\Assignment_Chsarp5_datntph19899.csproj": {
+              "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\C-5_Ass\\Assignment_Chsarp5_datntph19899.csproj"
             }
           }
         }
@@ -8864,5 +8894,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\Ass\\Assignment_CS5_Client\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
