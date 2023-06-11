@@ -1,0 +1,14 @@
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\bin\Debug\net6.0\1_AppData.deps.json
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\bin\Debug\net6.0\1_AppData.runtimeconfig.json
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\bin\Debug\net6.0\1_AppData.dll
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\bin\Debug\net6.0\1_AppData.pdb
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.csproj.AssemblyReference.cache
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.AssemblyInfoInputs.cache
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.AssemblyInfo.cs
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.csproj.CoreCompileInputs.cache
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.dll
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\refint\1_AppData.dll
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.pdb
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\1_AppData.genruntimeconfig.cache
+D:\Fpoly\C#5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\1_AppData\obj\Debug\net6.0\ref\1_AppData.dll
