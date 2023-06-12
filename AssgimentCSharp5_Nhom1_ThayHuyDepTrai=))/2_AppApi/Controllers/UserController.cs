@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace _2_AppApi.Controllers
             _IUserServices = new UserServices();
         }
         // GET: api/<UserController>
-        [HttpGet]
+        [HttpGet("get")]
         public async Task<ActionResult> Get()
         {
             var user = await _IUserServices.GetUserAsync();
@@ -26,7 +26,7 @@ namespace _2_AppApi.Controllers
         }
 
         // GET api/<UserController>/5
-        [HttpGet("{ID}")]
+        [HttpGet("get-{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             try

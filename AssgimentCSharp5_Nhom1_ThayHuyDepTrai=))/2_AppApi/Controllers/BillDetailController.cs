@@ -8,14 +8,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/billdetail")]
     [ApiController]
     public class BillDetailController : ControllerBase
     {
         IBillDetailServices _IBillDetailServices;
-        public BillDetailController()
+        public BillDetailController(IBillDetailServices billDetailServices)
         {
-            _IBillDetailServices = new BillDetailServices();
+            _IBillDetailServices = billDetailServices;
         }
         // GET: api/<BillDetailController>
         [HttpGet]

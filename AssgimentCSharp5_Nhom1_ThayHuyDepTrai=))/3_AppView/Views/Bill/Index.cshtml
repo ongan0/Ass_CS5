@@ -1,0 +1,69 @@
+﻿@*@model IEnumerable<_1_AppData._1_DataProcessing.Models.Bill>*@
+@model IEnumerable<_2_AppApi.ViewModels.Bill.BillShow>
+
+@using _1_AppData._1_DataProcessing.Models;
+
+@{
+    //var users = ViewData["ListUser"] as List<User>;
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Khách hàng
+            </th>
+            <th>
+                Địa chỉ giao
+            </th>
+            <th>
+                Ngày đặt
+            </th>
+            <th>
+                Ngày giao
+            </th>
+            <th>
+                Trạng thái giao
+            </th>
+            <th>
+                Tổng thanh toán
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shipping_Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actual_Delivery_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Delivery_Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalPrice)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

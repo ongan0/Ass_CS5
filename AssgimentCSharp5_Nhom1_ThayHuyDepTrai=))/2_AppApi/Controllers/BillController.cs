@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/bill")]
     [ApiController]
     public class BillController : ControllerBase
     {
@@ -16,14 +16,14 @@ namespace _2_AppApi.Controllers
         {
             _IBillServices = new BillServices();
         }
-        [HttpGet]
+        [HttpGet("get")]
         public async Task<ActionResult> Get()
         {
             var roles = await _IBillServices.GetBillAsync();
             return Ok(roles);
         }
         // GET api/<RoleController>/5
-        [HttpGet("{ID}")]
+        [HttpGet("get-{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             var role = await _IBillServices.GetByIdAsync(ID);

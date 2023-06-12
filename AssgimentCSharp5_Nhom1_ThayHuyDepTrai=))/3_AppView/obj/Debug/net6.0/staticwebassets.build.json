@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "Hash": "Z91CyWmrNVqrDdyrqGpUhub5aIVkj62pHB4xjE0Tkdo=",
+  "Hash": "bLztG/7fWgvFDa/MJ+pMxI235Zb7wXibaf9UsG2p+1A=",
   "Source": "3_AppView",
   "BasePath": "_content/3_AppView",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
       "Version": 2,
       "Source": "2_AppApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],
   "DiscoveryPatterns": [
     {
       "Name": "3_AppView\\wwwroot",
       "Source": "3_AppView",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\3_AppView.styles.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\3_AppView.styles.css",
       "SourceId": "3_AppView",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "3_AppView.styles.css",
       "AssetKind": "All",
@@ -43,13 +43,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\3_AppView.styles.css"
+      "OriginalItemSpec": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\3_AppView.styles.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\3_AppView.bundle.scp.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\3_AppView.bundle.scp.css",
       "SourceId": "3_AppView",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "3_AppView.bundle.scp.css",
       "AssetKind": "All",
@@ -60,13 +60,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\3_AppView.bundle.scp.css"
+      "OriginalItemSpec": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\3_AppView.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\css\\style.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\css\\style.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/css/style.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\about.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\about.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/about.jpg",
       "AssetKind": "All",
@@ -97,10 +97,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\about.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/apple-touch-icon.png",
       "AssetKind": "All",
@@ -114,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\apple-touch-icon.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-1.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-1.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-1.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-1.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-2.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-2.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-2.png",
       "AssetKind": "All",
@@ -148,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-2.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-3.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-3.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-3.png",
       "AssetKind": "All",
@@ -165,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-3.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-4.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-4.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-4.png",
       "AssetKind": "All",
@@ -182,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-4.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-5.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-5.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-5.png",
       "AssetKind": "All",
@@ -199,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-5.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-6.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\clients\\client-6.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/clients/client-6.png",
       "AssetKind": "All",
@@ -216,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\clients\\client-6.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\favicon.png",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\favicon.png",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/favicon.png",
       "AssetKind": "All",
@@ -233,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\favicon.png"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\hero-bg.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/hero-bg.jpg",
       "AssetKind": "All",
@@ -250,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\hero-bg.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-1.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-1.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-1.jpg",
       "AssetKind": "All",
@@ -267,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-1.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-2.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-2.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-2.jpg",
       "AssetKind": "All",
@@ -284,10 +284,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-2.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-3.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-3.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-3.jpg",
       "AssetKind": "All",
@@ -301,10 +301,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-3.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-4.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-4.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-4.jpg",
       "AssetKind": "All",
@@ -318,10 +318,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-4.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-5.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-5.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-5.jpg",
       "AssetKind": "All",
@@ -335,10 +335,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-5.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-6.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-6.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-6.jpg",
       "AssetKind": "All",
@@ -352,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-6.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-7.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-7.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-7.jpg",
       "AssetKind": "All",
@@ -369,10 +369,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-7.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-8.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-8.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-8.jpg",
       "AssetKind": "All",
@@ -386,10 +386,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-8.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-9.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-9.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-9.jpg",
       "AssetKind": "All",
@@ -403,10 +403,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-9.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-1.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-1.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-details-1.jpg",
       "AssetKind": "All",
@@ -420,10 +420,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-details-1.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-2.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-2.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-details-2.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-details-2.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-3.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\portfolio\\portfolio-details-3.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/portfolio/portfolio-details-3.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\portfolio-details-3.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-1.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/team/team-1.jpg",
       "AssetKind": "All",
@@ -471,10 +471,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-1.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-2.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/team/team-2.jpg",
       "AssetKind": "All",
@@ -488,10 +488,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-2.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-3.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/team/team-3.jpg",
       "AssetKind": "All",
@@ -505,10 +505,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-3.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\team\\team-4.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/team/team-4.jpg",
       "AssetKind": "All",
@@ -522,10 +522,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-4.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials/testimonials-1.jpg",
       "AssetKind": "All",
@@ -539,10 +539,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials/testimonials-2.jpg",
       "AssetKind": "All",
@@ -556,10 +556,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials/testimonials-3.jpg",
       "AssetKind": "All",
@@ -573,10 +573,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials/testimonials-4.jpg",
       "AssetKind": "All",
@@ -590,10 +590,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials/testimonials-5.jpg",
       "AssetKind": "All",
@@ -607,10 +607,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials-bg.jpg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\img\\testimonials-bg.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/img/testimonials-bg.jpg",
       "AssetKind": "All",
@@ -624,10 +624,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials-bg.jpg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\js\\main.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\js\\main.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -641,10 +641,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\scss\\Readme.txt",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\scss\\Readme.txt",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/scss/Readme.txt",
       "AssetKind": "All",
@@ -658,10 +658,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\Readme.txt"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/aos/aos.cjs.js",
       "AssetKind": "All",
@@ -675,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\aos\\aos.cjs.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/aos/aos.css",
       "AssetKind": "All",
@@ -692,10 +692,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\aos\\aos.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/aos/aos.esm.js",
       "AssetKind": "All",
@@ -709,10 +709,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\aos\\aos.esm.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/aos/aos.js",
       "AssetKind": "All",
@@ -726,10 +726,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\aos\\aos.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/aos/aos.js.map",
       "AssetKind": "All",
@@ -743,10 +743,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\aos\\aos.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -760,10 +760,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -811,10 +811,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -828,10 +828,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -845,10 +845,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -862,10 +862,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -879,10 +879,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -896,10 +896,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -913,10 +913,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -930,10 +930,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -947,10 +947,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -964,10 +964,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -981,10 +981,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -998,10 +998,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1015,10 +1015,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1032,10 +1032,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1049,10 +1049,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1066,10 +1066,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1083,10 +1083,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1117,10 +1117,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1134,10 +1134,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1168,10 +1168,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1185,10 +1185,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1202,10 +1202,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1219,10 +1219,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1236,10 +1236,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1253,10 +1253,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1270,10 +1270,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1287,10 +1287,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1304,10 +1304,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1321,10 +1321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1338,10 +1338,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1355,10 +1355,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1372,10 +1372,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1389,10 +1389,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1406,10 +1406,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -1440,10 +1440,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1457,10 +1457,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1474,10 +1474,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1491,10 +1491,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.css",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.json",
       "AssetKind": "All",
@@ -1525,10 +1525,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.min.css",
       "AssetKind": "All",
@@ -1542,10 +1542,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.scss",
       "AssetKind": "All",
@@ -1559,10 +1559,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
       "AssetKind": "All",
@@ -1576,10 +1576,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
       "AssetKind": "All",
@@ -1593,10 +1593,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/css/animations.css",
       "AssetKind": "All",
@@ -1610,10 +1610,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\css\\animations.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/css/boxicons.css",
       "AssetKind": "All",
@@ -1627,10 +1627,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/css/boxicons.min.css",
       "AssetKind": "All",
@@ -1644,10 +1644,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/css/transformations.css",
       "AssetKind": "All",
@@ -1661,10 +1661,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/fonts/boxicons.eot",
       "AssetKind": "All",
@@ -1678,10 +1678,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/fonts/boxicons.svg",
       "AssetKind": "All",
@@ -1695,10 +1695,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/fonts/boxicons.ttf",
       "AssetKind": "All",
@@ -1712,10 +1712,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/fonts/boxicons.woff",
       "AssetKind": "All",
@@ -1729,10 +1729,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/boxicons/fonts/boxicons.woff2",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/css/glightbox.css",
       "AssetKind": "All",
@@ -1763,10 +1763,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/css/glightbox.min.css",
       "AssetKind": "All",
@@ -1780,10 +1780,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/css/plyr.css",
       "AssetKind": "All",
@@ -1797,10 +1797,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/css/plyr.min.css",
       "AssetKind": "All",
@@ -1814,10 +1814,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/js/glightbox.js",
       "AssetKind": "All",
@@ -1831,10 +1831,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/glightbox/js/glightbox.min.js",
       "AssetKind": "All",
@@ -1848,10 +1848,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/isotope-layout/isotope.pkgd.js",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/isotope-layout/isotope.pkgd.min.js",
       "AssetKind": "All",
@@ -1882,10 +1882,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/php-email-form/validate.js",
       "AssetKind": "All",
@@ -1899,10 +1899,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\php-email-form\\validate.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/purecounter/purecounter_vanilla.js",
       "AssetKind": "All",
@@ -1916,10 +1916,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/purecounter/purecounter_vanilla.js.map",
       "AssetKind": "All",
@@ -1933,10 +1933,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.css",
       "AssetKind": "All",
@@ -1950,10 +1950,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.js",
       "AssetKind": "All",
@@ -1967,10 +1967,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.js.map",
       "AssetKind": "All",
@@ -1984,10 +1984,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\waypoints\\noframework.waypoints.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\assets\\vendor\\waypoints\\noframework.waypoints.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "assets/vendor/waypoints/noframework.waypoints.js",
       "AssetKind": "All",
@@ -2001,10 +2001,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor\\waypoints\\noframework.waypoints.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\css\\site.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\css\\site.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2018,10 +2018,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\favicon.ico",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\favicon.ico",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2035,10 +2035,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\forms\\contact.php",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\forms\\contact.php",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "forms/contact.php",
       "AssetKind": "All",
@@ -2052,10 +2052,10 @@
       "OriginalItemSpec": "wwwroot\\forms\\contact.php"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\forms\\Readme.txt",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\forms\\Readme.txt",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "forms/Readme.txt",
       "AssetKind": "All",
@@ -2069,10 +2069,95 @@
       "OriginalItemSpec": "wwwroot\\forms\\Readme.txt"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\js\\site.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\img\\z4312881351929_886ec4f5211e1db9511bfb6b4249164a.jpg",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "BasePath": "_content/3_AppView",
+      "RelativePath": "img/z4312881351929_886ec4f5211e1db9511bfb6b4249164a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\z4312881351929_886ec4f5211e1db9511bfb6b4249164a.jpg"
+    },
+    {
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\img\\z4313283775348_1154bae06d46454526174a79e7f9fc96.jpg",
+      "SourceId": "3_AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "BasePath": "_content/3_AppView",
+      "RelativePath": "img/z4313283775348_1154bae06d46454526174a79e7f9fc96.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\z4313283775348_1154bae06d46454526174a79e7f9fc96.jpg"
+    },
+    {
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\img\\z4313287963160_1b668905f9d07c4a403e11ee8138f2bb.jpg",
+      "SourceId": "3_AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "BasePath": "_content/3_AppView",
+      "RelativePath": "img/z4313287963160_1b668905f9d07c4a403e11ee8138f2bb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\z4313287963160_1b668905f9d07c4a403e11ee8138f2bb.jpg"
+    },
+    {
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\img\\z4313288715534_fef18538fef7ec23e60008a3184febc9.jpg",
+      "SourceId": "3_AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "BasePath": "_content/3_AppView",
+      "RelativePath": "img/z4313288715534_fef18538fef7ec23e60008a3184febc9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\z4313288715534_fef18538fef7ec23e60008a3184febc9.jpg"
+    },
+    {
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\img\\z4313293250204_98c1fdb425ca5e34b6999d6e5551d1af.jpg",
+      "SourceId": "3_AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "BasePath": "_content/3_AppView",
+      "RelativePath": "img/z4313293250204_98c1fdb425ca5e34b6999d6e5551d1af.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\z4313293250204_98c1fdb425ca5e34b6999d6e5551d1af.jpg"
+    },
+    {
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\js\\site.js",
+      "SourceId": "3_AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2086,10 +2171,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2103,10 +2188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2120,10 +2205,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2137,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2154,10 +2239,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2171,10 +2256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2188,10 +2273,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2205,10 +2290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2222,10 +2307,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2239,10 +2324,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2256,10 +2341,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2273,10 +2358,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2290,10 +2375,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2307,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2324,10 +2409,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2341,10 +2426,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2358,10 +2443,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2375,10 +2460,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2392,10 +2477,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2409,10 +2494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2426,10 +2511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2443,10 +2528,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2460,10 +2545,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2477,10 +2562,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2494,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2511,10 +2596,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2528,10 +2613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2545,10 +2630,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2562,10 +2647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2579,10 +2664,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2596,10 +2681,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2613,10 +2698,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2630,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2647,10 +2732,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2664,10 +2749,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2681,10 +2766,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2698,10 +2783,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2715,10 +2800,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2732,10 +2817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2749,10 +2834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2766,10 +2851,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2783,10 +2868,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2800,10 +2885,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2817,10 +2902,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2834,10 +2919,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2851,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2868,10 +2953,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2885,10 +2970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2902,10 +2987,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2919,10 +3004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2936,10 +3021,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2953,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2970,10 +3055,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2987,10 +3072,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3004,10 +3089,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3021,10 +3106,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3038,10 +3123,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "3_AppView",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
+      "ContentRoot": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\wwwroot\\",
       "BasePath": "_content/3_AppView",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

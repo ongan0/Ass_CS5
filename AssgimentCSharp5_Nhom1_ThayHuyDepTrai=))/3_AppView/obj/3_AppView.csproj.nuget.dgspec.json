@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {}
+    "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {}
   },
   "projects": {
-    "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+    "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+        "projectUniqueName": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
         "projectName": "1_AppData",
-        "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
-        "packagesPath": "C:\\Users\\image\\.nuget\\packages\\",
-        "outputPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
+        "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\image\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +27,8 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,24 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
+    "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+        "projectUniqueName": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
         "projectName": "2_AppApi",
-        "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
-        "packagesPath": "C:\\Users\\image\\.nuget\\packages\\",
-        "outputPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
+        "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\image\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,16 +111,16 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
-                "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
+              "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+                "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
               }
             }
           }
@@ -131,6 +135,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Refit": {
               "target": "Package",
               "version": "[6.3.2, )"
@@ -163,24 +179,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {
+    "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
+        "projectUniqueName": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
         "projectName": "3_AppView",
-        "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
-        "packagesPath": "C:\\Users\\image\\.nuget\\packages\\",
-        "outputPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\",
+        "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\image\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -188,19 +206,19 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
-                "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
+              "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+                "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
               },
-              "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
-                "projectPath": "D:\\Fpoly\\C#5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj"
+              "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
+                "projectPath": "D:\\FPT_Polytechnic\\C#5\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj"
               }
             }
           }
@@ -215,6 +233,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -247,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

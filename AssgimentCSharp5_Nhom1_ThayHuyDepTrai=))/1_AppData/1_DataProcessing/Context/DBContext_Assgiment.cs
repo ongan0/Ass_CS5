@@ -21,7 +21,7 @@ namespace _1_AppData._1_DataProcessing.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=DATNT;Initial Catalog=AssgimentCsharp5_Nhom1_ThayHuyDepTrai=));Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=AssgimentCsharp5_Nhom1_ThayHuyDepTrai=));Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
