@@ -60,7 +60,7 @@ namespace _2_AppApi.Controllers
         [HttpDelete("get-{ID}")]
         public async Task<ActionResult> Delete(Guid ID)
         {
-            var Category = _ICategoryServices.RemoveAsync(ID);
+            var Category = await _ICategoryServices.RemoveAsync(ID);
             return Ok("");
         }
     }

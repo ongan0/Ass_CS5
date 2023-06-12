@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+      "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
       "projectName": "1_AppData",
-      "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+      "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
       "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
-      "outputPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
+      "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

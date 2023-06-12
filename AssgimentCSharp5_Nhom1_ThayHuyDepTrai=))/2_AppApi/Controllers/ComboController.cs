@@ -56,10 +56,10 @@ namespace _2_AppApi.Controllers
         }
 
         // DELETE api/<ComboController>/5
-        [HttpDelete("{ID}")]
+        [HttpDelete("get-{ID}")]
         public async Task<ActionResult> Delete(Guid ID)
         {
-            var Combo = _IComboServices.RemoveAsync(ID);
+            var Combo = await _IComboServices.RemoveAsync(ID);
             return Ok("okok");
         }
     }

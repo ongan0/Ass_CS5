@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {}
+    "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {}
   },
   "projects": {
-    "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+    "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+        "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
         "projectName": "1_AppData",
-        "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
+        "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj",
         "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
-        "outputPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
+        "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
+    "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+        "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
         "projectName": "2_AppApi",
-        "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+        "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
         "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
-        "outputPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
+        "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
-                "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
+              "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+                "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
               }
             }
           }
@@ -129,6 +129,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Refit": {
               "target": "Package",
               "version": "[6.3.2, )"
@@ -165,14 +177,14 @@
         }
       }
     },
-    "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {
+    "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
+        "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
         "projectName": "3_AppView",
-        "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
+        "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\3_AppView.csproj",
         "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
-        "outputPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\",
+        "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\3_AppView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,11 +205,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
-                "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
+              "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+                "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
               },
-              "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
-                "projectPath": "D:\\LTC#5\\Lab-As\\ASC5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj"
+              "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj": {
+                "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj"
               }
             }
           }
@@ -212,6 +224,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
