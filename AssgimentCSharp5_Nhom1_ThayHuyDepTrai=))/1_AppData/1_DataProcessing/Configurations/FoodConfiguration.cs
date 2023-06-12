@@ -14,7 +14,7 @@ namespace Assignment_CS5_Share._2_Configurations
             builder.Property(c=>c.Description).HasMaxLength(526).IsRequired();
 
             builder.HasMany(c=>c.Categorys).WithMany(c=>c.Food); 
-            //builder.HasMany(c=>c.BillDetails).WithOne(c=>c.Food).HasForeignKey(c=>c.ID); đã thành công
+            //builder.HasMany(c=>c.BillDetails).WithOne(c=>c.Food).HasForeignKey(c=>c.ID); 
         }
     }
 }

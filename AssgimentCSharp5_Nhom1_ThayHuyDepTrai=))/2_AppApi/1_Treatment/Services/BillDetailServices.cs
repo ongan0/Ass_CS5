@@ -1,8 +1,10 @@
-﻿using _1_AppData._1_DataProcessing.Models;
+﻿using _1_AppData._1_DataProcessing.Context;
+using _1_AppData._1_DataProcessing.Models;
 using _1_AppData._2_Treatment.IReponsitorys;
 using _1_AppData._2_Treatment.Reponsitorys;
 using _2_AppApi._1_Treatment.IServices;
 using _2_AppApi.ViewModels.BillDetail;
+using Microsoft.EntityFrameworkCore;
 
 namespace _2_AppApi._1_Treatment.Services
 {
@@ -11,8 +13,10 @@ namespace _2_AppApi._1_Treatment.Services
         IBillDetailRepon _IBillDetailRepon;
         IBillRepon _IBillRepon;
         IFoodRepon _IFoodRepon;
-        public BillDetailServices()
+        DBContext_Assgiment _context;
+        public BillDetailServices(DBContext_Assgiment context)
         {
+            _context = context;
             _IBillDetailRepon = new BillDetailRepon();
             _IBillRepon = new BillRepon();
             _IFoodRepon = new FoodRepon();
@@ -54,6 +58,20 @@ namespace _2_AppApi._1_Treatment.Services
         {
             var data = await _IBillDetailRepon.GetByIdAsync(ID);
             return data;
+        }
+
+        public async Task<List<vmBillDetail>> GetListByIdAsync(Guid ID)
+        {
+            var billDetails = await _context.BillDetails.Where(c=>c.BillID == ID).ToListAsync();
+            var allFoods = await _context.Foods.ToListAsync();
+            List<vmBillDetail> foods = (from food in allFoods
+                            join billDetail in billDetails on food.ID equals billDetail.FoodID
+                            select new vmBillDetail
+                            {
+                                
+                            }
+                         ).ToList();
+            return foods;
         }
 
         public async Task<int> RemoveAsync(Guid ID)

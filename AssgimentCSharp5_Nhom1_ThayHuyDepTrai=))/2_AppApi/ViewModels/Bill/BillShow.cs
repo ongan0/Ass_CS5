@@ -3,10 +3,12 @@
     public class BillShow
     {
         public Guid ID { get; set; }
+        public string Account { get; set; }
         public string UserName { get; set; }
         public Guid UserID { get; set; }// khách hàng ở bảng User
-        public Guid Delivery_AddressID { get; set; } // địa chỉ
+        public Guid Delivery_AddressID { get; set; } // địa chỉ quán
         public string Shipping_Address { get; set; } // địa chỉ gửi hàng
+        public string PhoneNumber { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime Delivery_Date { get; set; }//thời gian giao hàng

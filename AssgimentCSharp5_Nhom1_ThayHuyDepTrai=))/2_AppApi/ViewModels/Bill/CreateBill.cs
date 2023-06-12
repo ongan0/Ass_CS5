@@ -4,11 +4,14 @@ namespace _2_AppApi.ViewModels.Bill
 {
     public class CreateBill
     {
-        [Required(ErrorMessage = "Không được bỏ trống ....")]
-        public Guid Delivery_AddressID { get; set; } // địa chỉ
         [Required(ErrorMessage = "Không được bỏ trống địa chỉ")]
         public string Shipping_Address { get; set; } // địa chỉ gửi hàng
-        [Required(ErrorMessage = "Không được bỏ trống ID của khách hàng")]
+        [Required(ErrorMessage = "Không được bỏ trống tên người nhận hàng")]
+        public string Receiver_Name { get; set; }
+        [Required(ErrorMessage = "Không được bỏ trống địa chỉ nhận hàng")]
+        public string Receiver_Address { get; set; }
+        [Required(ErrorMessage = "Không được bỏ trống số điẹn thoại người nhận hàng")]
+        public string PhoneNumber { get; set; }
         public Guid UserID { get; set; }// ID của khách hàng ở bảng User
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }

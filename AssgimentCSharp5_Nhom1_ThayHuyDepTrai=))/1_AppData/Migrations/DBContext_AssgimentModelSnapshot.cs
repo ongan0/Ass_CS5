@@ -31,9 +31,6 @@ namespace _1_AppData.Migrations
                     b.Property<DateTime>("Actual_Delivery_Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("Delivery_AddressID")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<DateTime>("Delivery_Date")
                         .HasColumnType("datetime2");
 
@@ -45,6 +42,18 @@ namespace _1_AppData.Migrations
 
                     b.Property<int>("Payment_Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Receiver_Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Receiver_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Shipping_Address")
                         .IsRequired()
@@ -60,8 +69,6 @@ namespace _1_AppData.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("Delivery_AddressID");
 
                     b.HasIndex("UserID");
 
@@ -221,8 +228,6 @@ namespace _1_AppData.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("CustomerID");
 
                     b.ToTable("Delivery_Addresses");
                 });
@@ -487,19 +492,11 @@ namespace _1_AppData.Migrations
 
             modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.Bill", b =>
                 {
-                    b.HasOne("_1_AppData._1_DataProcessing.Models.Delivery_Address", "Delivery_Address")
-                        .WithMany("Bills")
-                        .HasForeignKey("Delivery_AddressID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("_1_AppData._1_DataProcessing.Models.User", "User")
                         .WithMany("Bills")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
-
-                    b.Navigation("Delivery_Address");
 
                     b.Navigation("User");
                 });
@@ -528,17 +525,6 @@ namespace _1_AppData.Migrations
                     b.HasOne("_1_AppData._1_DataProcessing.Models.Category", null)
                         .WithMany("combos")
                         .HasForeignKey("CategoryID");
-                });
-
-            modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.Delivery_Address", b =>
-                {
-                    b.HasOne("_1_AppData._1_DataProcessing.Models.User", "User")
-                        .WithMany("Delivery_Addresses")
-                        .HasForeignKey("CustomerID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.Ordel", b =>
@@ -678,11 +664,6 @@ namespace _1_AppData.Migrations
                     b.Navigation("combos");
                 });
 
-            modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.Delivery_Address", b =>
-                {
-                    b.Navigation("Bills");
-                });
-
             modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.Food", b =>
                 {
                     b.Navigation("BillDetails");
@@ -703,8 +684,6 @@ namespace _1_AppData.Migrations
             modelBuilder.Entity("_1_AppData._1_DataProcessing.Models.User", b =>
                 {
                     b.Navigation("Bills");
-
-                    b.Navigation("Delivery_Addresses");
 
                     b.Navigation("Orders");
 

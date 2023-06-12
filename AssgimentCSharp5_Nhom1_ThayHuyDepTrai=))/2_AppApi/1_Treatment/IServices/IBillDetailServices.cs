@@ -9,6 +9,7 @@ namespace _2_AppApi._1_Treatment.IServices
         public Task<int> UpdateAsync(Guid ID, CreateBillDetail Obj);
         public Task<int> RemoveAsync(Guid ID);
         public Task<BillDetail> GetByIdAsync(Guid ID);
+        public Task<List<vmBillDetail>> GetListByIdAsync(Guid ID);
         public Task<List<BillDetail>> GetBillDetailAsync();
     }
 }

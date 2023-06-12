@@ -22,6 +22,6 @@ namespace _1_AppData._1_DataProcessing.Models
         public ICollection<Bill> Bills { get; set; }
         public ICollection<Reviews> Reviews { get; set; }
         public virtual ICollection<Ordel> Orders { get; set; }
-        public ICollection<Delivery_Address> Delivery_Addresses { get; set; }
+        //public ICollection<Delivery_Address> Delivery_Addresses { get; set; }
     }
 }

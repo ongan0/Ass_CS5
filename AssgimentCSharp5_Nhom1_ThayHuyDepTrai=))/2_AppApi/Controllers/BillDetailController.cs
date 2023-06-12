@@ -26,12 +26,12 @@ namespace _2_AppApi.Controllers
         }
 
         // GET api/<BillDetailController>/5
-        [HttpGet("{ID}")]
+        [HttpGet("get-{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             try
             {
-                var user = await _IBillDetailServices.GetByIdAsync(ID);
+                var user = await _IBillDetailServices.GetListByIdAsync(ID);
                 return Ok(user);
             }
             catch (Exception)

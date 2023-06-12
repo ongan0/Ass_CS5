@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/category")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {
@@ -21,7 +21,7 @@ namespace _2_AppApi.Controllers
             _ICategoryServices = new CategoryServices();
         }
         // GET: api/<CategoryController>
-        [HttpGet("get")]
+        [HttpGet]
         public async Task<ActionResult> Get()
         {
             var Category = await _ICategoryServices.GetCategoryAsync();
@@ -29,7 +29,7 @@ namespace _2_AppApi.Controllers
         }
 
         // GET api/<CategoryController>/5
-        [HttpGet("get-{ID}")]
+        [HttpGet("{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             var Category = await _ICategoryServices.GetByIdAsync(ID);
@@ -45,7 +45,7 @@ namespace _2_AppApi.Controllers
         }
 
         // PUT api/<CategoryController>/5
-        [HttpPut("get-{ID}")]
+        [HttpPut("{ID}")]
         public async Task<ActionResult> Put(Guid ID, [FromBody] CreateCategory obj)
         {
             var Category = await _ICategoryServices.UpdateAsync(ID, obj);
@@ -57,10 +57,10 @@ namespace _2_AppApi.Controllers
         }
 
         // DELETE api/<CategoryController>/5
-        [HttpDelete("get-{ID}")]
+        [HttpDelete("{ID}")]
         public async Task<ActionResult> Delete(Guid ID)
         {
-            var Category = await _ICategoryServices.RemoveAsync(ID);
+            var Category = _ICategoryServices.RemoveAsync(ID);
             return Ok("");
         }
     }

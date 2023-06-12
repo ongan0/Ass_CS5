@@ -16,52 +16,63 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
-                Khách hàng
-            </th>
-            <th>
-                Địa chỉ giao
-            </th>
-            <th>
-                Ngày đặt
-            </th>
-            <th>
-                Ngày giao
-            </th>
-            <th>
-                Trạng thái giao
-            </th>
-            <th>
-                Tổng thanh toán
-            </th>
+            <th>Tên người đặt</th>
+            <th>Ngày đặt hàng</th>
+            <th>Tổng giá</th>
+            <th>Trạng thái</th>
+            <th>Trạng thái thanh toán</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>@item.UserName</td>
+            <td>@item.OrderDate</td>
+            <td>@item.TotalPrice</td>
+            @if(item.Delivery_Status==1)
+            {
+                <td>Chờ xác nhận</td>
+            }
+            else if (item.Delivery_Status == 2)
+            {
+                <td>Chờ lấy hàng</td>
+            }
+            else if (item.Delivery_Status == 3)
+            {
+                <td>Đang giao</td>
+            }
+            else if (item.Delivery_Status == 4)
+            {
+                <td>Đã giao</td>
+            }
+            else 
+            {
+                <td>Đã hủy</td>
+            }
+            @if (item.Payment_Status == 0)
+            {
+                    <td>Chưa thanh toán</td>
+            }
+            else
+            {
+                    <td>Đã thanh toán</td>
+            }
             <td>
-                @Html.DisplayFor(modelItem => item.UserName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Shipping_Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Actual_Delivery_Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Delivery_Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPrice)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                <a href="#">
+                @if(item.Delivery_Status==1)
+                {
+                    <span>Xác nhận</span>
+                }
+                else if (item.Delivery_Status == 2)
+                {
+                    <span>Giao hàng</span>
+                }
+                else if (item.Delivery_Status == 3)
+                {
+                    <span>Đã giao</span>
+                }
+                <a href="#">Chi tiết</a>
             </td>
         </tr>
 }

@@ -52,14 +52,12 @@ namespace _1_AppData._2_Treatment.Reponsitorys
             {
                 var data = await _context.Reviews.ToListAsync();
                 return data;
-
             }
             catch (Exception)
             {
 
                 throw;
             }
-
 
         }
 

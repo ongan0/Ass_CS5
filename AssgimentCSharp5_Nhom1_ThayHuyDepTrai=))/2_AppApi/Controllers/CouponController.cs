@@ -1,75 +1,43 @@
-﻿using _2_AppApi._1_Treatment.IServices;
-using _2_AppApi._1_Treatment.Services;
-using _2_AppApi.ViewModels.Coupons;
-using _2_AppApi.ViewModels.Reviews;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/coupon")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CouponController : ControllerBase
     {
-        private readonly ICouponsServices _couponsServices;
-        public CouponController()
-        {
-            _couponsServices = new CouponsServices();
-        }
         // GET: api/<CouponController>
-        [HttpGet("get")]
-        public async Task<ActionResult> Get()
+        [HttpGet]
+        public IEnumerable<string> Get()
         {
-            var cou = await _couponsServices.GetCouponsAsync();
-            return Ok(cou);
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/<CouponController>/5
-        [HttpGet("get-{ID}")]
-        public async Task<ActionResult> Get(Guid ID)
+        [HttpGet("{id}")]
+        public string Get(int id)
         {
-            var cou = await _couponsServices.GetByIdAsync(ID);
-            return Ok(cou);
+            return "value";
         }
 
         // POST api/<CouponController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] CreateCoupons obj)
+        public void Post([FromBody] string value)
         {
-            var cou = await _couponsServices.AddAsync(obj);
-            if (cou == 1)
-            {
-                return Ok("đã thêm thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
 
         // PUT api/<CouponController>/5
-        [HttpPut("get-{ID}")]
-        public async Task<ActionResult> Put(Guid ID, [FromBody] CreateCoupons obj)
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
         {
-            var cou = await _couponsServices.UpdateAsync(ID, obj);
-            if (cou == 1)
-            {
-                return Ok("đã sửa thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
 
         // DELETE api/<CouponController>/5
-        [HttpDelete("get-{ID}")]
-        public async Task<ActionResult> Delete(Guid ID)
+        [HttpDelete("{id}")]
+        public void Delete(int id)
         {
-            var cou = await _couponsServices.RemoveAsync(ID);
-            if (cou == 1)
-            {
-                return Ok("đã xoa thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
     }
 }

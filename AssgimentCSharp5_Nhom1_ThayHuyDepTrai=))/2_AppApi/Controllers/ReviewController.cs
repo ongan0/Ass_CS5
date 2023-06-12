@@ -1,6 +1,5 @@
 ﻿using _2_AppApi._1_Treatment.IServices;
 using _2_AppApi._1_Treatment.Services;
-using _2_AppApi.ViewModels.Combo;
 using _2_AppApi.ViewModels.Reviews;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/review")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ReviewController : ControllerBase
     {
@@ -18,58 +17,36 @@ namespace _2_AppApi.Controllers
             _IReviewsServices = new ReviewsServices();
         }
         // GET: api/<ReviewController>
-        [HttpGet("get")]
-        public async Task<ActionResult> Get()
+        [HttpGet]
+        public async Task<ActionResult> Get([FromBody] CreateReviews Obj)
         {
-            var re = await _IReviewsServices.GetReviewsAsync();
-            return Ok(re);
+            await _IReviewsServices.AddAsync(Obj);
+            return Ok(Obj);
         }
 
         // GET api/<ReviewController>/5
-        [HttpGet("get-{ID}")]
-        public async Task<ActionResult> Get(Guid ID)
+        [HttpGet("{id}")]
+        public string Get(int id)
         {
-            var revi = await _IReviewsServices.GetByIdAsync(ID);
-            return Ok(revi);
+            return "value";
         }
 
         // POST api/<ReviewController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] CreateReviews obj)
+        public void Post([FromBody] string value)
         {
-            var result = await _IReviewsServices.AddAsync(obj);
-            if (result == 1)
-            {
-                return Ok("đã thêm thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
 
         // PUT api/<ReviewController>/5
-        [HttpPut("get-{ID}")]
-        public async Task<ActionResult> Put(Guid ID, [FromBody] CreateReviews obj)
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
         {
-            var revi = await _IReviewsServices.UpdateAsync(ID, obj);
-            if (revi == 1)
-            {
-                return Ok("đã sửa thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
 
         // DELETE api/<ReviewController>/5
-        [HttpDelete("get-{ID}")]
-        public async Task<ActionResult> Delete(Guid ID)
+        [HttpDelete("{id}")]
+        public void Delete(int id)
         {
-            var revi = await _IReviewsServices.RemoveAsync(ID);
-            if (revi == 1)
-            {
-                return Ok("đã xoa thành công");
-            }
-
-            return Ok("Lỗi hệ thống");
         }
     }
 }

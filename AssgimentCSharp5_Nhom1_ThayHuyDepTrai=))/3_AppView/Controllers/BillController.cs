@@ -39,7 +39,6 @@ namespace _3_AppView.Controllers
                                 UserID = user.ID,
                                 UserName = user.Name,
                                 Actual_Delivery_Date = bill.Actual_Delivery_Date,
-                                Delivery_AddressID = bill.Delivery_AddressID,
                                 Delivery_Date = bill.Delivery_Date,
                                 Delivery_Status = bill.Delivery_Status,
                                 OrderDate = bill.OrderDate,

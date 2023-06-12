@@ -75,23 +75,21 @@ namespace _2_AppApi._1_Treatment.Services
         public async Task<int> UpdateAsync(Guid ID, CreateReviews Obj)
         {
             var food = await _IFoodRepon.GetByIdAsync(Obj.FoodID);
-            if (food == null)
+            if(food == null)
             {
                 return 2;
             }
-            var user = await _IUserRepon.GetByIdAsync(Obj.UserID);
-            if (user == null)
+            var user = await _IUserRepon.GetByIdAsync(Obj.UserID); if (user == null)
             {
-                return 3;
+                return 2;
             }
-            var reviews = await _IReviewsRepon.GetByIdAsync(ID);
+            Reviews reviews = await _IReviewsRepon.GetByIdAsync(ID);
             reviews.ID = ID;
-
             reviews.Content = Obj.Content;
             reviews.Rating = Obj.Rating;
             reviews.Created_At = Obj.Created_At;
             reviews.Updated_At = DateTime.Now;
-            if (await _IReviewsRepon.UpdateAsync(reviews))
+            if(await _IReviewsRepon.UpdateAsync(reviews))
             {
                 return 1;
             }

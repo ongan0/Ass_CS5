@@ -24,15 +24,17 @@ namespace _2_AppApi._1_Treatment.Services
             {
                 return 3;
             }
-            Delivery_Address delivery_Address = await _IDelivery_AddressRepon.GetByIdAsync(Obj.Delivery_AddressID);
-            if (delivery_Address == null)
-            {
-                return 4;
-            }
+            //Delivery_Address delivery_Address = await _IDelivery_AddressRepon.GetByIdAsync(Obj.Delivery_AddressID);
+            //if (delivery_Address == null)
+            //{
+            //    return 4;
+            //}
             Bill bill = new Bill()
             {
                 ID = Guid.NewGuid(),
-                Delivery_AddressID = Obj.Delivery_AddressID,
+                Receiver_Address = Obj.Receiver_Address,
+                Receiver_Name = Obj.Receiver_Name,
+                PhoneNumber = Obj.PhoneNumber,
                 Shipping_Address = Obj.Shipping_Address,
                 OrderDate = Obj.OrderDate,
                 TotalPrice = Obj.TotalPrice,
@@ -41,8 +43,7 @@ namespace _2_AppApi._1_Treatment.Services
                 Delivery_Status = Obj.Delivery_Status,
                 Shipping_Cost = Obj.Shipping_Cost,
                 Payment_Status = Obj.Payment_Status,
-                Delivery_Address = delivery_Address,
-                User = user,
+                //Delivery_Address = delivery_Address,
 
             };
             if (await _IBillRepon.AddAsync(bill))
@@ -89,13 +90,15 @@ namespace _2_AppApi._1_Treatment.Services
             {
                 return 3;
             }
-            Delivery_Address delivery_Address = await _IDelivery_AddressRepon.GetByIdAsync(Obj.Delivery_AddressID);
-            if (delivery_Address == null)
-            {
-                return 4;
-            }
+            //Delivery_Address delivery_Address = await _IDelivery_AddressRepon.GetByIdAsync(Obj.Delivery_AddressID);
+            //if (delivery_Address == null)
+            //{
+            //    return 4;
+            //}
             bill.ID = Guid.NewGuid();
-            bill.Delivery_AddressID = Obj.Delivery_AddressID;
+            bill.Receiver_Address = Obj.Receiver_Address;
+            bill.Receiver_Name = Obj.Receiver_Name;
+            bill.PhoneNumber = Obj.PhoneNumber;
             bill.Shipping_Address = Obj.Shipping_Address;
             bill.OrderDate = Obj.OrderDate;
             bill.TotalPrice = Obj.TotalPrice;
@@ -104,8 +107,6 @@ namespace _2_AppApi._1_Treatment.Services
             bill.Delivery_Status = Obj.Delivery_Status;
             bill.Shipping_Cost = Obj.Shipping_Cost;
             bill.Payment_Status = Obj.Payment_Status;
-            bill.Delivery_Address = delivery_Address;
-            bill.User = user;
             if (await _IBillRepon.UpdateAsync(bill))
             {
                 return 1;

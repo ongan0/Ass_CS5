@@ -10,7 +10,9 @@ namespace _1_AppData._1_DataProcessing.Models
     {
         public Guid ID { get; set; }
         public Guid UserID { get; set; }// ID của khách hàng ở bảng User
-        public Guid Delivery_AddressID { get; set; } // địa chỉ
+        public string Receiver_Name { get; set; }
+        public string Receiver_Address { get; set; }
+        public string PhoneNumber { get; set; }
         public string Shipping_Address { get; set; } // địa chỉ gửi hàng
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
@@ -20,8 +22,9 @@ namespace _1_AppData._1_DataProcessing.Models
         public decimal Shipping_Cost { get; set; }//phí vận chuyển
         public int Payment_Status { get; set; }//trạng thái thanh toán
 
+
         public virtual User User { get; set; }
         public ICollection<BillDetail> BillDetails { get; set; }
-        public virtual Delivery_Address Delivery_Address { get; set; }
+        //public virtual Delivery_Address Delivery_Address { get; set; }
     }
 }
