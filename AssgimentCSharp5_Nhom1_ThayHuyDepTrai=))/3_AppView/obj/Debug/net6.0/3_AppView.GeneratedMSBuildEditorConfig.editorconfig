@@ -6,52 +6,93 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _3_AppView
 build_property.RootNamespace = _3_AppView
-build_property.ProjectDir = D:\FPT_Polytechnic\C#5\Ass_CS5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\3_AppView\
+build_property.ProjectDir = D:\LTC#5\Lab-As\ASC5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\3_AppView\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FPT_Polytechnic\C#5\Ass_CS5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\3_AppView
+build_property.MSBuildProjectDirectory = D:\LTC#5\Lab-As\ASC5\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\3_AppView
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Bill/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxJbmRleC5jc2h0bWw=
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Food/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Index.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Category/ShowAllCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2hvd0FsbENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Combo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Combo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Combo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Combo/ShowAllCombo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9cU2hvd0FsbENvbWJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Food/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Food/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Food/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Food/ShowAllFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxTaG93QWxsRm9vZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Login.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Privacy.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/Error.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/_ViewImports.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/_ViewStart.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_Polytechnic/C\#5/Ass_CS5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/_Layout.cshtml]
+[D:/LTC\#5/Lab-As/ASC5/AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))/3_AppView/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o3b65ovj56
