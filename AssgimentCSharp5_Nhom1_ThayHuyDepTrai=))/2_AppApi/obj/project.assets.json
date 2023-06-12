@@ -2545,11 +2545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+      "projectUniqueName": "D:\\LTC#5\\Lab-As\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
       "projectName": "2_AppApi",
-      "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
+      "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\2_AppApi.csproj",
       "packagesPath": "C:\\Users\\laich\\.nuget\\packages\\",
-      "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
+      "outputPath": "D:\\LTC#5\\Lab-As\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\2_AppApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2570,8 +2570,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
-              "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS50\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
+            "D:\\LTC#5\\Lab-As\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj": {
+              "projectPath": "D:\\LTC#5\\Lab-As\\Ass_CS5\\AssgimentCSharp5_Nhom1_ThayHuyDepTrai=))\\1_AppData\\1_AppData.csproj"
             }
           }
         }
