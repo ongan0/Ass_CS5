@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/combo")]
     [ApiController]
     public class ComboController : ControllerBase
     {
@@ -20,7 +20,7 @@ namespace _2_AppApi.Controllers
             _IFoodServices = new FoodServices();
         }
         // GET: api/<ComboController>
-        [HttpGet]
+        [HttpGet("get")]
         public async Task<ActionResult> Get()
         {
             var data = await _IComboServices.GetComboAsync();
@@ -28,7 +28,7 @@ namespace _2_AppApi.Controllers
         }
 
         // GET api/<ComboController>/5
-        [HttpGet("{ID}")]
+        [HttpGet("get-{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             var Combo = await _IComboServices.GetByIdAsync(ID);
@@ -44,7 +44,7 @@ namespace _2_AppApi.Controllers
         }
 
         // PUT api/<ComboController>/5
-        [HttpPut("{ID}")]
+        [HttpPut("get-{ID}")]
         public async Task<ActionResult> Put(Guid ID, [FromBody] CreateCombo obj)
         {
             var Combo = await _IComboServices.UpdateAsync(ID, obj);
@@ -56,10 +56,10 @@ namespace _2_AppApi.Controllers
         }
 
         // DELETE api/<ComboController>/5
-        [HttpDelete("{ID}")]
+        [HttpDelete("get-{ID}")]
         public async Task<ActionResult> Delete(Guid ID)
         {
-            var Combo = _IComboServices.RemoveAsync(ID);
+            var Combo = await _IComboServices.RemoveAsync(ID);
             return Ok("okok");
         }
     }

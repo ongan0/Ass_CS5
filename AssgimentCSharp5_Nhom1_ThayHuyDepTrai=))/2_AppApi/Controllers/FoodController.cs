@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2_AppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/food")]
     [ApiController]
     public class FoodController : ControllerBase
     {
@@ -16,14 +16,14 @@ namespace _2_AppApi.Controllers
         {
             _IFoodServices = new FoodServices();
         }
-        [HttpGet]
+        [HttpGet("get")]
         public async Task<ActionResult> Get()
         {
             var roles = await _IFoodServices.GetRoleAsync();
             return Ok(roles);
         }
         // GET api/<RoleController>/5
-        [HttpGet("{ID}")]
+        [HttpGet("get-{ID}")]
         public async Task<ActionResult> Get(Guid ID)
         {
             var role = await _IFoodServices.GetByIdAsync(ID);
@@ -44,7 +44,7 @@ namespace _2_AppApi.Controllers
         }
 
         // PUT api/<RoleController>/5
-        [HttpPut("{ID}")]
+        [HttpPut("get-{ID}")]
         public async Task<ActionResult> Put(Guid ID, [FromBody] CreateFood obj)
         {
             var result = await _IFoodServices.UpdateAsync(ID, obj);
@@ -60,7 +60,7 @@ namespace _2_AppApi.Controllers
         }
 
         // DELETE api/<RoleController>/5
-        [HttpDelete("{ID}")]
+        [HttpDelete("get-{ID}")]
         public async Task<ActionResult> Delete(Guid ID)
         {
             var result = await _IFoodServices.RemoveAsync(ID);
